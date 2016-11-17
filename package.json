@@ -1,0 +1,27 @@
+{
+  "name": "desktop",
+  "productName": "并行®超算云桌面",
+  "description": "并行®超算云桌面",
+  "version": "1.0.0",
+  "main": "index.html",
+  "nodejs": true,
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "chromium-args": "--mixed-context",
+  "window": {
+    "icon": "icon.png",
+    "show": true,
+    "toolbar": false,
+    "width": 1280,
+    "height": 720,
+    "min_width": 800,
+    "min_height": 480,
+    "position": "center",
+    "plugin": false
+  },
+  "permissions": [
+    "cookies",
+    "*://*.paratera.com"
+  ]
+}
